@@ -275,7 +275,7 @@ h2 {
       justify-content: center;
     }
     img{
-      width: 315px;
+      width: 450px;
       display: grid;
       gap: 20px;
       border-radius: 20px;
@@ -283,4 +283,5 @@ h2 {
     }
     .mem-cont{
       margin: 0 160px;
+
     }
