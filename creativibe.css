@@ -12,7 +12,7 @@ html,body{height:100%}
 body{
   margin:0;
   font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  color: #eef2f5;
+  color: #0c0d0e;
   background:#cdd3d9;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -278,10 +278,153 @@ h2 {
       width: 450px;
       display: grid;
       gap: 20px;
-      border-radius: 20px;
+      border-radius: 10px;
       margin: 10px;
     }
     .mem-cont{
       margin: 0 160px;
-
     }
+    .contain_er {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #F98934;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.stars {
+    color: #FFC107;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.about-us h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 40px 0;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    border: 1px solid #0e0c0c;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-top: 1px solid #e7e7e7;
+    color: #555;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col.brand-info {
+    text-align: center;
+}
+
+.brand-info h3 {
+    color: #F98934;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: #555;
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #F98934;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+    }
+
+    .reviews-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-card {
+        width: 80%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+}
